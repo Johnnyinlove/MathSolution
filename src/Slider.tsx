@@ -9,7 +9,8 @@ export default function Slider( ) {
    "https://cdn.pixabay.com/photo/2017/01/21/09/47/learn-1996846_1280.jpg",
     "https://cdn.pixabay.com/photo/2017/06/15/11/51/learn-2405206_1280.jpg",
     "https://cdn.pixabay.com/photo/2017/02/14/07/26/singapore-2064905_640.jpg",
-    "https://cdn.pixabay.com/photo/2015/10/11/11/20/banner-982162_1280.jpg"
+    "https://cdn.pixabay.com/photo/2015/10/11/11/20/banner-982162_1280.jpg",
+    "https://cdn.pixabay.com/photo/2023/01/10/04/18/maths-7708891_640.jpg"
   ];
 
       const [slideIndex, setSlideIndex] = useState(0);
@@ -40,9 +41,9 @@ export default function Slider( ) {
       }, [autoPlay]);
     
     
-      const toggleAutoPlay = () => {
-        setAutoPlay(!autoPlay);
-      };
+      // const toggleAutoPlay = () => {
+      //   setAutoPlay(!autoPlay);
+      // };
     
       const handleMouseEnter = () => {
         setAutoPlay(false);
