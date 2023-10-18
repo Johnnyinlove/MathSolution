@@ -66,7 +66,7 @@ return (
     </div> */}
 
 
-<h2>Vamos a ver</h2>
+{/* <h2>Vamos a ver</h2> */}
 <div    onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave} id="carouselExample" className="carousel slide">
 

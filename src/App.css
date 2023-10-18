@@ -24,6 +24,12 @@
   object-fit: cover;
 }
 
+.carousel-control-prev{
+  color: black;
+  fill: aqua;
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
