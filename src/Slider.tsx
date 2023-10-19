@@ -1,16 +1,18 @@
 import { useState, useEffect } from "react";
 import './App.css'
-
+import './index.css'
 
 export default function Slider( ) {
    
 
-  const images = ["https://cdn.pixabay.com/photo/2018/07/15/10/44/dna-3539309_1280.jpg",
-   "https://cdn.pixabay.com/photo/2017/01/21/09/47/learn-1996846_1280.jpg",
+  const images = ["https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_1280.jpg",
+  //  "https://cdn.pixabay.com/photo/2017/01/21/09/47/learn-1996846_1280.jpg",
+  // "https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg",
+  "https://cdn.pixabay.com/photo/2014/03/12/18/45/boys-286245_1280.jpg",
     "https://cdn.pixabay.com/photo/2017/06/15/11/51/learn-2405206_1280.jpg",
-    "https://cdn.pixabay.com/photo/2017/02/14/07/26/singapore-2064905_640.jpg",
-    "https://cdn.pixabay.com/photo/2015/10/11/11/20/banner-982162_1280.jpg",
-    "https://cdn.pixabay.com/photo/2023/01/10/04/18/maths-7708891_640.jpg"
+    "https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_1280.jpg",
+    "https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_1280.jpg",
+    "https://cdn.pixabay.com/photo/2023/01/10/04/19/college-student-7708894_1280.jpg"
   ];
 
       const [slideIndex, setSlideIndex] = useState(0);
@@ -77,10 +79,14 @@ return (
   </div> */}
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={images[slideIndex]} alt={`Imagen ${slideIndex + 1}`} className="d-block w-100 carousel-item-img" />
+      <img src={images[slideIndex]} alt={`Imagen ${slideIndex + 1}`} className="d-block w-100 carousel-item-img  " />
     </div>
+    <div className="carousel-caption d-none d-md-block">
+        <h5 className="text-light">EL aprendizaje es vital</h5>
+        <p className="text-light">La repetición es la madre de la enseñanza</p>
+      </div>
      </div>
-  <button   onClick={prevSlide} className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+     <button   onClick={prevSlide} className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
