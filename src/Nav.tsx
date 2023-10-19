@@ -14,6 +14,15 @@ export default function Nav () {
    const goHorario =()=> {
    navigate("/MathSolution/Horario");  
    }
+   
+   const goCursos =()=> {
+   navigate("/MathSolution/Cursos");  
+   }
+
+
+
+
+
     return(
 
         <>
@@ -29,7 +38,7 @@ export default function Nav () {
   <li className="nav-item dropdown active">
     <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
     <ul className="dropdown-menu">
-      <li><a className="dropdown-item" href="#">Cursos</a></li>
+      <li><a onClick={goCursos}  className="dropdown-item" href="#">Cursos</a></li>
       <li><a onClick={goHorario} className="dropdown-item" href="#">Horarios</a></li>
       <li><a className="dropdown-item" href="#">Contacto</a></li>
       <li><hr className="dropdown-divider"/></li>

@@ -26,9 +26,9 @@ a:hover {
 }
 
 body {
-  /* margin: 0; */
-  display: flex;
-  place-items: center;
+  /* margin: 1rem; */
+  /* display: flex; */
+  /* place-items: center; */
   /* min-width: 320px; */
   /* min-height: 100vh; */
 }
@@ -39,7 +39,6 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -48,10 +47,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  border-radius: 8px;
+  -o-border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
-  -o-border-radius: 8px;
 }
 button:hover {
   border-color: #646cff;
@@ -79,9 +79,18 @@ button:focus-visible {
 
 .carousel-item-img{
 
-  width: 1500px; /* Ancho fijo */
-  height: 300px; /* Alto fijo */
+  width: 1500px; 
+  /* Ancho fijo */
+  height: 500px; 
+  /* Alto fijo */
   object-fit: cover;
+}
+
+.ratio{
+  position:fixed;
+  width: 1000px;
+  height:500px;
+
 }
 
 
@@ -93,3 +102,5 @@ button:focus-visible {
   --bs-text-opacity: .5;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 } */
+
+

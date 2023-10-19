@@ -1,6 +1,4 @@
 
-
-import { useState, useEffect } from "react";
 import './App.css'
 
 import Nav from "./Nav";
@@ -15,72 +13,57 @@ return(
 <>
 
 <Nav/>
-<Slider/>
+
     <h1>Horario</h1>
 <table className="table table-dark table-hover">
     <thead>
          <tr>
-            <th>Compañía</th>
-            <th>Contacto</th>
-            <th>Mercado</th>
-            <th>Destino</th>
-            <th>Sucursal</th>
+            <th>Turnos</th>
+            <th>Horarios</th>
+            <th>L</th>
+            <th>M</th>
+            <th>Mi</th>
+            <th>J</th>
         </tr>
 
     </thead>
         <tbody>
         <tr>
-           <td >Alfreds Futterkiste</td>
-           <td className="table-light">Maria Anders</td>
-           <td>Germany</td>
-           <td>Alemán</td>
-           <td>Vedado</td>
+           <td >1</td>
+           <td >3:00pm--4:00pm</td>
+           <td>Marlon</td>
+           <td>Marlon y Moises</td>
+           <td>Marlon</td>
+           <td>Marlon y Moises</td>
                   
         </tr>
         {/* </tr> */}
         <tr>
-           <td>Centro comercial Moctezuma</td>
-           <td>Francisco Chang</td>
-           <td>Mexico</td>
-           <td>Español</td>
-           <td>Viñales</td>
+           <td>2</td>
+           <td>4:05pm--5:05pm</td>
+           <td>Sailin</td>
+           <td>Sailin</td>
+           <td>Sailin</td>
+           <td>Sailin</td>
+        
         </tr>
         <tr>
-           <td>Ernst Handel</td>
-           <td>Roland Mendel</td>
-           <td>Austria</td>
-           <td>Sueco</td>
-           <td>Varadero</td>
+           <td>3</td>
+           <td>5:10pm--6:10pm</td>
+           <td>Yosvani</td>
+           <td>Yosvani</td>
+           <td>Eduard</td>
+           <td className="table-light"></td>
         </tr>
         <tr>
-           <td>Island Trading</td>
-           <td>Helen Bennett</td>
-           <td>UK</td>
-           <td>Inglés</td>
-           <td>Viñales</td>
+           <td>4</td>
+           <td>6:15pm--7:15pm</td>
+           <td className="table-light"></td>
+           <td>Rebeca</td>
+           <td className="table-light"></td>
+           <td>Rebeca</td>
         </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canadá</td>
-          <td>Francés</td>
-          <td>La Cen</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italia</td>
-          <td>Italiano</td>
-          <td>Viñales</td>
-        </tr>
-        <tr>
-          <td>Castillo Ratimbum</td>
-          <td>Fiona Shrek</td>
-          <td>Mexico</td>
-          <td>Español</td>
-          <td>Merida</td>
-       </tr>
-       </tbody>
+         </tbody>
 </table>
 
 </>
