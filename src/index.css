@@ -86,11 +86,17 @@ button:focus-visible {
   object-fit: cover;
 }
 
-.ratio{
-  position:fixed;
-  width: 1000px;
-  height:500px;
+.ratio1{
+  position:relative;
+  width: 1500px;
+  object-fit: cover;
+  height:1000px;
+  
+}
 
+.ratio{
+  height:1000px;
+  position: absolute;
 }
 
 
@@ -103,4 +109,15 @@ button:focus-visible {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 } */
 
+
+.player-wrapper {
+  position: relative;
+   padding-top: 56.25%; /*Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+}
 
