@@ -1,7 +1,6 @@
 import {} from 'react'
 import { useNavigate } from "react-router-dom";
-
-
+import svg from "./assets/react.svg";
 
 export default function Nav () {
 
@@ -30,13 +29,13 @@ export default function Nav () {
 
 <nav className="navbar bg-alert-mio" data-bs-theme="dark">
     <ul className="nav nav-tabs">
-  <li className="nav-item">
+  <li className="nav-item  ">
     <a onClick={ReturnHome} className="nav-link active" aria-current="page" href="#">
-      <img src="./src/assets/react.svg" alt="svg" />
+      <img src={svg} alt="svg" />
       MathSolutions</a>
   </li>
   <li className="nav-item dropdown active">
-    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
+    <a className="nav-link dropdown-toggle color-new" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
     <ul className="dropdown-menu">
       <li><a onClick={goCursos}  className="dropdown-item" href="#">Cursos</a></li>
       <li><a onClick={goHorario} className="dropdown-item" href="#">Horarios</a></li>
