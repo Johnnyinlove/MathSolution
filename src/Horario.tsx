@@ -50,10 +50,10 @@ return(
         <tr>
            <td>3</td>
            <td>5:10pm--6:10pm</td>
-           <td>Yosvani</td>
-           <td>Yosvani</td>
-           <td>Eduard</td>
            <td className="table-light"></td>
+           <td className="table-light"></td>
+           <td className="table-light"></td>
+           <td> Eduard </td>
         </tr>
         <tr>
            <td>4</td>
