@@ -12,9 +12,9 @@ return (
 <Nav/>
 
 
-<div className="ratio1">
+{/* <div className="ratio1">
   <iframe className="ratio" src="https://www.youtube.com/embed/UFaMBm8-7mQ?rel=0" title="YouTube video" allowFullScreen />
-</div>
+</div> */}
 
 
 <div className='player-wrapper'>
