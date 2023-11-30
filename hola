@@ -1,0 +1,4165 @@
+Sub Guardar()
+
+
+
+
+Dim Celdae As Range
+
+
+
+
+If Hoja6.Range("M3").Value = "" Then
+
+MsgBox "Entre el mes"
+
+Else
+
+
+If Hoja6.Range("M3").Value = 0 Then
+
+
+MsgBox "El Mes tiene que ser un numero entre 01 y 12"
+
+Else
+
+If Hoja6.Range("M3").Value < 13 Then
+
+
+
+If Hoja6.Range("M3").Value = Hoja7.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V1").Value Then
+
+
+Hoja7.Range("V4:AA18").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V20").Value Then
+
+
+Hoja7.Range("V23:AA37").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V39").Value Then
+
+
+Hoja7.Range("V42:AA56").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V58").Value Then
+
+
+Hoja7.Range("V61:AA75").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V77").Value Then
+
+
+Hoja7.Range("V80:AA94").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V96").Value Then
+
+
+Hoja7.Range("V99:AA113").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V115").Value Then
+
+
+Hoja7.Range("V118:AA132").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V134").Value Then
+
+
+Hoja7.Range("V137:AA151").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V153").Value Then
+
+
+Hoja7.Range("V156:AA170").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V172").Value Then
+
+
+Hoja7.Range("V175:AA189").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V191").Value Then
+
+
+Hoja7.Range("V194:AA208").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V210").Value Then
+
+
+Hoja7.Range("V213:AA227").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V229").Value Then
+
+
+Hoja7.Range("V232:AA246").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V248").Value Then
+
+
+Hoja7.Range("V251:AA265").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V267").Value Then
+
+
+Hoja7.Range("V270:AA284").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V286").Value Then
+
+
+Hoja7.Range("V289:AA303").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V305").Value Then
+
+
+Hoja7.Range("V308:AA322").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V324").Value Then
+
+
+Hoja7.Range("V327:AA341").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V343").Value Then
+
+
+Hoja7.Range("V346:AA360").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V362").Value Then
+
+
+Hoja7.Range("V365:AA379").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V381").Value Then
+
+
+Hoja7.Range("V384:AA398").Value = Hoja6.Range("K6:P20").Value
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V400").Value Then
+
+Hoja7.Range("V403:AA417").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V419").Value Then
+
+Hoja7.Range("V422:AA436").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V438").Value Then
+
+Hoja7.Range("V441:AA455").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V457").Value Then
+
+Hoja7.Range("V460:AA474").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V476").Value Then
+
+Hoja7.Range("V479:AA493").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V495").Value Then
+
+Hoja7.Range("V498:AA512").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V514").Value Then
+
+Hoja7.Range("V517:AA531").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V533").Value Then
+
+Hoja7.Range("V536:AA550").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V552").Value Then
+
+Hoja7.Range("V555:AA569").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V571").Value Then
+
+Hoja7.Range("V574:AA588").Value = Hoja6.Range("K6:P20").Value
+
+End If
+
+
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+Hoja6.Range("K3").Value = ""
+Hoja6.Range("M3").Value = ""
+Hoja6.Range("K6:K20").Value = ""
+Hoja6.Range("M6:M20").Value = ""
+Hoja6.Range("O6:O20").Value = ""
+
+End Sub
+
+
+
+
+
+
+
+
+
+Sub Eliminar()
+
+
+Dim Celdae As Range
+
+If Hoja6.Range("M3").Value = "" Then
+
+MsgBox "Entre el mes"
+
+Else
+
+
+If Hoja6.Range("M3").Value = 0 Then
+
+
+MsgBox "El Mes tiene que ser un numero entre 01 y 12"
+
+Else
+
+If Hoja6.Range("M3").Value < 13 Then
+
+
+
+If Hoja6.Range("M3").Value = Hoja7.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V1").Value Then
+
+
+Hoja7.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V20").Value Then
+
+
+Hoja7.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V58").Value Then
+
+
+Hoja7.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V77").Value Then
+
+
+Hoja7.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V96").Value Then
+
+
+Hoja7.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V115").Value Then
+
+
+Hoja7.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V134").Value Then
+
+
+Hoja7.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V153").Value Then
+
+
+Hoja7.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V172").Value Then
+
+
+Hoja7.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V191").Value Then
+
+
+Hoja7.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V210").Value Then
+
+
+Hoja7.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V229").Value Then
+
+
+Hoja7.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V248").Value Then
+
+
+Hoja7.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V267").Value Then
+
+
+Hoja7.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V286").Value Then
+
+
+Hoja7.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V305").Value Then
+
+
+Hoja7.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V324").Value Then
+
+
+Hoja7.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V343").Value Then
+
+
+Hoja7.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V362").Value Then
+
+
+Hoja7.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V381").Value Then
+
+
+Hoja7.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V400").Value Then
+
+Hoja7.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V419").Value Then
+
+Hoja7.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V438").Value Then
+
+Hoja7.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V457").Value Then
+
+Hoja7.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V476").Value Then
+
+Hoja7.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V495").Value Then
+
+Hoja7.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V514").Value Then
+
+Hoja7.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V533").Value Then
+
+Hoja7.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V552").Value Then
+
+Hoja7.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V571").Value Then
+
+Hoja7.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja8.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V1").Value Then
+
+
+Hoja8.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V20").Value Then
+
+
+Hoja8.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V58").Value Then
+
+
+Hoja8.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V77").Value Then
+
+
+Hoja8.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V96").Value Then
+
+
+Hoja8.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V115").Value Then
+
+
+Hoja8.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V134").Value Then
+
+
+Hoja8.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V153").Value Then
+
+
+Hoja8.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V172").Value Then
+
+
+Hoja8.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V191").Value Then
+
+
+Hoja8.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V210").Value Then
+
+
+Hoja8.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V229").Value Then
+
+
+Hoja8.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V248").Value Then
+
+
+Hoja8.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V267").Value Then
+
+
+Hoja8.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V286").Value Then
+
+
+Hoja8.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V305").Value Then
+
+
+Hoja8.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V324").Value Then
+
+
+Hoja8.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V343").Value Then
+
+
+Hoja8.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V362").Value Then
+
+
+Hoja8.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V381").Value Then
+
+
+Hoja8.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V400").Value Then
+
+Hoja8.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V419").Value Then
+
+Hoja8.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V438").Value Then
+
+Hoja8.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V457").Value Then
+
+Hoja8.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V476").Value Then
+
+Hoja8.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V495").Value Then
+
+Hoja8.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V514").Value Then
+
+Hoja8.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V533").Value Then
+
+Hoja8.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V552").Value Then
+
+Hoja8.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja8.Range("V571").Value Then
+
+Hoja8.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja9.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V1").Value Then
+
+
+Hoja9.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V20").Value Then
+
+
+Hoja9.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V58").Value Then
+
+
+Hoja9.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V77").Value Then
+
+
+Hoja9.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V96").Value Then
+
+
+Hoja9.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V115").Value Then
+
+
+Hoja9.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V134").Value Then
+
+
+Hoja9.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V153").Value Then
+
+
+Hoja9.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V172").Value Then
+
+
+Hoja9.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V191").Value Then
+
+
+Hoja9.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V210").Value Then
+
+
+Hoja9.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V229").Value Then
+
+
+Hoja9.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V248").Value Then
+
+
+Hoja9.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V267").Value Then
+
+
+Hoja9.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V286").Value Then
+
+
+Hoja9.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V305").Value Then
+
+
+Hoja9.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V324").Value Then
+
+
+Hoja9.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V343").Value Then
+
+
+Hoja9.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V362").Value Then
+
+
+Hoja9.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V381").Value Then
+
+
+Hoja9.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V400").Value Then
+
+Hoja9.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V419").Value Then
+
+Hoja9.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V438").Value Then
+
+Hoja9.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V457").Value Then
+
+Hoja9.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V476").Value Then
+
+Hoja9.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V495").Value Then
+
+Hoja9.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V514").Value Then
+
+Hoja9.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V533").Value Then
+
+Hoja9.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V552").Value Then
+
+Hoja9.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja9.Range("V571").Value Then
+
+Hoja9.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja10.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V1").Value Then
+
+
+Hoja10.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V20").Value Then
+
+
+Hoja10.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V58").Value Then
+
+
+Hoja10.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V77").Value Then
+
+
+Hoja10.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V96").Value Then
+
+
+Hoja10.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V115").Value Then
+
+
+Hoja10.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V134").Value Then
+
+
+Hoja10.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V153").Value Then
+
+
+Hoja10.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V172").Value Then
+
+
+Hoja10.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V191").Value Then
+
+
+Hoja10.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V210").Value Then
+
+
+Hoja10.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V229").Value Then
+
+
+Hoja10.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V248").Value Then
+
+
+Hoja10.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V267").Value Then
+
+
+Hoja10.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V286").Value Then
+
+
+Hoja10.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V305").Value Then
+
+
+Hoja10.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V324").Value Then
+
+
+Hoja10.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V343").Value Then
+
+
+Hoja10.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V362").Value Then
+
+
+Hoja10.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V381").Value Then
+
+
+Hoja10.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V400").Value Then
+
+Hoja10.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V419").Value Then
+
+Hoja10.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V438").Value Then
+
+Hoja10.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V457").Value Then
+
+Hoja10.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V476").Value Then
+
+Hoja10.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V495").Value Then
+
+Hoja10.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V514").Value Then
+
+Hoja10.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V533").Value Then
+
+Hoja10.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V552").Value Then
+
+Hoja10.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja10.Range("V571").Value Then
+
+Hoja10.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja11.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V1").Value Then
+
+
+Hoja11.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V20").Value Then
+
+
+Hoja11.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V58").Value Then
+
+
+Hoja11.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V77").Value Then
+
+
+Hoja11.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V96").Value Then
+
+
+Hoja11.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V115").Value Then
+
+
+Hoja11.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V134").Value Then
+
+
+Hoja11.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V153").Value Then
+
+
+Hoja11.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V172").Value Then
+
+
+Hoja11.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V191").Value Then
+
+
+Hoja11.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V210").Value Then
+
+
+Hoja11.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V229").Value Then
+
+
+Hoja11.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V248").Value Then
+
+
+Hoja11.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V267").Value Then
+
+
+Hoja11.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V286").Value Then
+
+
+Hoja11.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V305").Value Then
+
+
+Hoja11.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V324").Value Then
+
+
+Hoja11.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V343").Value Then
+
+
+Hoja11.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V362").Value Then
+
+
+Hoja11.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V381").Value Then
+
+
+Hoja11.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V400").Value Then
+
+Hoja11.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V419").Value Then
+
+Hoja11.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V438").Value Then
+
+Hoja11.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V457").Value Then
+
+Hoja11.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V476").Value Then
+
+Hoja11.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V495").Value Then
+
+Hoja11.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V514").Value Then
+
+Hoja11.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V533").Value Then
+
+Hoja11.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V552").Value Then
+
+Hoja11.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja11.Range("V571").Value Then
+
+Hoja11.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja12.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V1").Value Then
+
+
+Hoja12.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V20").Value Then
+
+
+Hoja12.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V58").Value Then
+
+
+Hoja12.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V77").Value Then
+
+
+Hoja12.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V96").Value Then
+
+
+Hoja12.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V115").Value Then
+
+
+Hoja12.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V134").Value Then
+
+
+Hoja12.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V153").Value Then
+
+
+Hoja12.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V172").Value Then
+
+
+Hoja12.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V191").Value Then
+
+
+Hoja12.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V210").Value Then
+
+
+Hoja12.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V229").Value Then
+
+
+Hoja12.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V248").Value Then
+
+
+Hoja12.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V267").Value Then
+
+
+Hoja12.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V286").Value Then
+
+
+Hoja12.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V305").Value Then
+
+
+Hoja12.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V324").Value Then
+
+
+Hoja12.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V343").Value Then
+
+
+Hoja12.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V362").Value Then
+
+
+Hoja12.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V381").Value Then
+
+
+Hoja12.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V400").Value Then
+
+Hoja12.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V419").Value Then
+
+Hoja12.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V438").Value Then
+
+Hoja12.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V457").Value Then
+
+Hoja12.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V476").Value Then
+
+Hoja12.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V495").Value Then
+
+Hoja12.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V514").Value Then
+
+Hoja12.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V533").Value Then
+
+Hoja12.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V552").Value Then
+
+Hoja12.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja12.Range("V571").Value Then
+
+Hoja12.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja13.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V1").Value Then
+
+
+Hoja13.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V20").Value Then
+
+
+Hoja13.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V58").Value Then
+
+
+Hoja13.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V77").Value Then
+
+
+Hoja13.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V96").Value Then
+
+
+Hoja13.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V115").Value Then
+
+
+Hoja13.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V134").Value Then
+
+
+Hoja13.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V153").Value Then
+
+
+Hoja13.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V172").Value Then
+
+
+Hoja13.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V191").Value Then
+
+
+Hoja13.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V210").Value Then
+
+
+Hoja13.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V229").Value Then
+
+
+Hoja13.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V248").Value Then
+
+
+Hoja13.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V267").Value Then
+
+
+Hoja13.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V286").Value Then
+
+
+Hoja13.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V305").Value Then
+
+
+Hoja13.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V324").Value Then
+
+
+Hoja13.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V343").Value Then
+
+
+Hoja13.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V362").Value Then
+
+
+Hoja13.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V381").Value Then
+
+
+Hoja13.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V400").Value Then
+
+Hoja13.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V419").Value Then
+
+Hoja13.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V438").Value Then
+
+Hoja13.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V457").Value Then
+
+Hoja13.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V476").Value Then
+
+Hoja13.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V495").Value Then
+
+Hoja13.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V514").Value Then
+
+Hoja13.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V533").Value Then
+
+Hoja13.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V552").Value Then
+
+Hoja13.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja13.Range("V571").Value Then
+
+Hoja13.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja14.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V1").Value Then
+
+
+Hoja14.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V20").Value Then
+
+
+Hoja14.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V58").Value Then
+
+
+Hoja14.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V77").Value Then
+
+
+Hoja14.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V96").Value Then
+
+
+Hoja14.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V115").Value Then
+
+
+Hoja14.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V134").Value Then
+
+
+Hoja14.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V153").Value Then
+
+
+Hoja14.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V172").Value Then
+
+
+Hoja14.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V191").Value Then
+
+
+Hoja14.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V210").Value Then
+
+
+Hoja14.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V229").Value Then
+
+
+Hoja14.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V248").Value Then
+
+
+Hoja14.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V267").Value Then
+
+
+Hoja14.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V286").Value Then
+
+
+Hoja14.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V305").Value Then
+
+
+Hoja14.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V324").Value Then
+
+
+Hoja14.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V343").Value Then
+
+
+Hoja14.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V362").Value Then
+
+
+Hoja14.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V381").Value Then
+
+
+Hoja14.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V400").Value Then
+
+Hoja14.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V419").Value Then
+
+Hoja14.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V438").Value Then
+
+Hoja14.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V457").Value Then
+
+Hoja14.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V476").Value Then
+
+Hoja14.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V495").Value Then
+
+Hoja14.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V514").Value Then
+
+Hoja14.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V533").Value Then
+
+Hoja14.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V552").Value Then
+
+Hoja14.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja14.Range("V571").Value Then
+
+Hoja14.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja15.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V1").Value Then
+
+
+Hoja15.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V20").Value Then
+
+
+Hoja15.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V58").Value Then
+
+
+Hoja15.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V77").Value Then
+
+
+Hoja15.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V96").Value Then
+
+
+Hoja15.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V115").Value Then
+
+
+Hoja15.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V134").Value Then
+
+
+Hoja15.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V153").Value Then
+
+
+Hoja15.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V172").Value Then
+
+
+Hoja15.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V191").Value Then
+
+
+Hoja15.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V210").Value Then
+
+
+Hoja15.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V229").Value Then
+
+
+Hoja15.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V248").Value Then
+
+
+Hoja15.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V267").Value Then
+
+
+Hoja15.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V286").Value Then
+
+
+Hoja15.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V305").Value Then
+
+
+Hoja15.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V324").Value Then
+
+
+Hoja15.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V343").Value Then
+
+
+Hoja15.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V362").Value Then
+
+
+Hoja15.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V381").Value Then
+
+
+Hoja15.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V400").Value Then
+
+Hoja15.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V419").Value Then
+
+Hoja15.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V438").Value Then
+
+Hoja15.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V457").Value Then
+
+Hoja15.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V476").Value Then
+
+Hoja15.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V495").Value Then
+
+Hoja15.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V514").Value Then
+
+Hoja15.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V533").Value Then
+
+Hoja15.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V552").Value Then
+
+Hoja15.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja15.Range("V571").Value Then
+
+Hoja15.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja16.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V1").Value Then
+
+
+Hoja16.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V20").Value Then
+
+
+Hoja16.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V58").Value Then
+
+
+Hoja16.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V77").Value Then
+
+
+Hoja16.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V96").Value Then
+
+
+Hoja16.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V115").Value Then
+
+
+Hoja16.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V134").Value Then
+
+
+Hoja16.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V153").Value Then
+
+
+Hoja16.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V172").Value Then
+
+
+Hoja16.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V191").Value Then
+
+
+Hoja16.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V210").Value Then
+
+
+Hoja16.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V229").Value Then
+
+
+Hoja16.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V248").Value Then
+
+
+Hoja16.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V267").Value Then
+
+
+Hoja16.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V286").Value Then
+
+
+Hoja16.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V305").Value Then
+
+
+Hoja16.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V324").Value Then
+
+
+Hoja16.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V343").Value Then
+
+
+Hoja16.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V362").Value Then
+
+
+Hoja16.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V381").Value Then
+
+
+Hoja16.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V400").Value Then
+
+Hoja16.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V419").Value Then
+
+Hoja16.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V438").Value Then
+
+Hoja16.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V457").Value Then
+
+Hoja16.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V476").Value Then
+
+Hoja16.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V495").Value Then
+
+Hoja16.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V514").Value Then
+
+Hoja16.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V533").Value Then
+
+Hoja16.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V552").Value Then
+
+Hoja16.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja16.Range("V571").Value Then
+
+Hoja16.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja17.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V1").Value Then
+
+
+Hoja17.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V20").Value Then
+
+
+Hoja17.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V58").Value Then
+
+
+Hoja17.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V77").Value Then
+
+
+Hoja17.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V96").Value Then
+
+
+Hoja17.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V115").Value Then
+
+
+Hoja17.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V134").Value Then
+
+
+Hoja17.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V153").Value Then
+
+
+Hoja17.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V172").Value Then
+
+
+Hoja17.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V191").Value Then
+
+
+Hoja17.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V210").Value Then
+
+
+Hoja17.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V229").Value Then
+
+
+Hoja17.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V248").Value Then
+
+
+Hoja17.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V267").Value Then
+
+
+Hoja17.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V286").Value Then
+
+
+Hoja17.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V305").Value Then
+
+
+Hoja17.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V324").Value Then
+
+
+Hoja17.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V343").Value Then
+
+
+Hoja17.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V362").Value Then
+
+
+Hoja17.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V381").Value Then
+
+
+Hoja17.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V400").Value Then
+
+Hoja17.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V419").Value Then
+
+Hoja17.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V438").Value Then
+
+Hoja17.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V457").Value Then
+
+Hoja17.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V476").Value Then
+
+Hoja17.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V495").Value Then
+
+Hoja17.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V514").Value Then
+
+Hoja17.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V533").Value Then
+
+Hoja17.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V552").Value Then
+
+Hoja17.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja17.Range("V571").Value Then
+
+Hoja17.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+If Hoja6.Range("M3").Value = Hoja18.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+ 
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V1").Value Then
+
+
+Hoja18.Range("V4:AA18").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V20").Value Then
+
+
+Hoja18.Range("V23:AA37").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V58").Value Then
+
+
+Hoja18.Range("V61:AA75").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V77").Value Then
+
+
+Hoja18.Range("V80:AA94").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V96").Value Then
+
+
+Hoja18.Range("V99:AA113").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V115").Value Then
+
+
+Hoja18.Range("V118:AA132").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V134").Value Then
+
+
+Hoja18.Range("V137:AA151").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V153").Value Then
+
+
+Hoja18.Range("V156:AA170").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V172").Value Then
+
+
+Hoja18.Range("V175:AA189").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V191").Value Then
+
+
+Hoja18.Range("V194:AA208").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V210").Value Then
+
+
+Hoja18.Range("V213:AA227").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V229").Value Then
+
+
+Hoja18.Range("V232:AA246").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V248").Value Then
+
+
+Hoja18.Range("V251:AA265").Value = ""
+
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V267").Value Then
+
+
+Hoja18.Range("V270:AA284").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V286").Value Then
+
+
+Hoja18.Range("V289:AA303").Value = ""
+
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V305").Value Then
+
+
+Hoja18.Range("V308:AA322").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V324").Value Then
+
+
+Hoja18.Range("V327:AA341").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V343").Value Then
+
+
+Hoja18.Range("V346:AA360").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V362").Value Then
+
+
+Hoja18.Range("V365:AA379").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V381").Value Then
+
+
+Hoja18.Range("V384:AA398").Value = ""
+
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V400").Value Then
+
+Hoja18.Range("V403:AA417").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V419").Value Then
+
+Hoja18.Range("V422:AA436").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V438").Value Then
+
+Hoja18.Range("V441:AA455").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V457").Value Then
+
+Hoja18.Range("V460:AA474").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V476").Value Then
+
+Hoja18.Range("V479:AA493").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V495").Value Then
+
+Hoja18.Range("V498:AA512").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V514").Value Then
+
+Hoja18.Range("V517:AA531").Value = ""
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V533").Value Then
+
+Hoja18.Range("V536:AA550").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V552").Value Then
+
+Hoja18.Range("V555:AA569").Value = ""
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja18.Range("V571").Value Then
+
+Hoja18.Range("V574:AA588").Value = ""
+
+End If
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Else
+
+MsgBox "El Mes tiene que ser un numero entre 01 y 12"
+
+
+End If
+
+End If
+
+
+End If
+
+
+
+
+
+
+Hoja6.Range("K3").Value = ""
+Hoja6.Range("M3").Value = ""
+Hoja6.Range("K6:K20").Value = ""
+Hoja6.Range("M6:M20").Value = ""
+Hoja6.Range("O6:O20").Value = ""
+
+End Sub
+
+
+Sub Traer()
+
+
+Dim Celdae As Range
+
+If Hoja6.Range("M3").Value = "" Then
+
+MsgBox "Entre el mes"
+
+Else
+
+
+If Hoja6.Range("M3").Value = 0 Then
+
+
+MsgBox "El Mes tiene que ser un numero entre 01 y 12"
+
+Else
+
+If Hoja6.Range("M3").Value < 13 Then
+
+
+
+If Hoja6.Range("M3").Value = Hoja7.Range("A2") Then
+
+If Hoja6.Range("K3").Value = "" Then
+
+MsgBox "Entre el dia"
+
+Else
+
+If Hoja6.Range("K3").Value = 0 Then
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+Else
+
+If Hoja6.Range("K3").Value < 32 Then
+
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V1").Value Then
+
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V4:V18").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X4:X18").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z4:Z18").Value
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V20").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V23:V37").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X23:X37").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z23:Z37").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V39").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V42:V56").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X42:X56").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z42:Z56").Value
+
+End If
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V58").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V61:V75").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X61:X75").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z61:Z75").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V77").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V80:V94").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X80:X94").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z80:Z94").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V96").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V99:V113").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X99:X113").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z99:Z113").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V115").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V118:V132").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X118:X132").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z118:Z132").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V134").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V137:V151").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X137:X151").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z137:Z151").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V153").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V156:V170").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X156:X170").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z156:Z170").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V172").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V175:V189").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X175:X189").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z175:Z189").Value
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V191").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V194:V208").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X194:X208").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z194:Z208").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V210").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V213:V227").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X213:X227").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z213:Z227").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V229").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V232:V246").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X232:X246").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z232:Z246").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V248").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V251:V265").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X251:X265").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z251:Z265").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V267").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V270:V284").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X270:X284").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z270:Z284").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V286").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V289:V303").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X289:X303").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z289:Z303").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V305").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V308:V322").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X308:X322").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z308:Z322").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V324").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V327:V341").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X327:X341").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z327:Z341").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V343").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V346:V360").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X346:X360").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z346:Z360").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V362").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V365:V379").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X365:X379").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z365:Z379").Value
+
+End If
+
+
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V381").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V384:V398").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X384:X398").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z384:Z398").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V400").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V403:V417").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X403:X417").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z403:Z417").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V419").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V422:V436").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X422:X436").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z422:Z436").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V438").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V441:V455").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X441:X455").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z441:Z455").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V457").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V460:V474").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X460:X474").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z460:Z474").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V476").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V479:V493").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X479:X493").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z479:Z493").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V495").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V498:V512").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X498:X512").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z498:Z512").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V514").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V517:V531").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X517:X531").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z517:Z531").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V533").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V536:V550").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X536:X550").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z536:Z550").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V552").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V555:V569").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X555:X569").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z555:Z569").Value
+
+End If
+
+If Hoja6.Range("K3").Value = Hoja7.Range("V571").Value Then
+
+Hoja6.Range("K6:K20").Value = Hoja7.Range("V574:V588").Value
+Hoja6.Range("M6:M20").Value = Hoja7.Range("X574:X588").Value
+Hoja6.Range("O6:O20").Value = Hoja7.Range("Z574:Z588").Value
+
+End If
+
+
+
+Else
+
+MsgBox "El Dia tiene que ser un numero entre 01 y 31"
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+End If
+
+
+Else
+
+MsgBox "El Mes tiene que ser un numero entre 01 y 12"
+
+
+End If
+
+End If
+
+
+End If
+
+
+
+
+End Sub
+
+
+
+Sub Nuevo()
+
+Hoja6.Range("K3").Value = ""
+Hoja6.Range("M3").Value = ""
+Hoja6.Range("K6:K20").Value = ""
+Hoja6.Range("M6:M20").Value = ""
+Hoja6.Range("O6:O20").Value = ""
+
+End Sub
+
+
+
+
