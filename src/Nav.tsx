@@ -49,9 +49,9 @@ export default function Nav () {
   <li className="nav-item dropdown active">
     <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Webs</a>
     <ul className="dropdown-menu">
-      <li><a className="dropdown-item" href="#">Primera web</a></li>
+      <li><a className="dropdown-item" href="https://johnnyinlove.d3i5negfn33i3u.amplifyapp.com/">Primera Web</a></li>
       <li><hr className="dropdown-divider"/></li>
-      {/* <li><a className="dropdown-item" href="#">Separated link</a></li> */}
+      <li><a className="dropdown-item" href="https://johnnyreact.d3if6eo00snogl.amplifyapp.com/"> SSegunda web</a></li>
     </ul>
   </li>
   {/* <li className="nav-item">
