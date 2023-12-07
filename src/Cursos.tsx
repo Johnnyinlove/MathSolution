@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import  "./index.css"
 // import React from 'react'
 import ReactPlayer from 'react-player'
+import NavCursos from './NavCursos'
 
 export default function Cursos () {
 
@@ -9,28 +10,54 @@ return (
 
 <>
 
-<Nav/>
+<NavCursos/>
 
 
-{/* <div className="ratio1">
-  <iframe className="ratio" src="https://www.youtube.com/embed/UFaMBm8-7mQ?rel=0" title="YouTube video" allowFullScreen />
-</div> */}
+<h2>Matemática</h2>
 
-<h2>hola</h2>
+<div className="container-fluid">
+  <ReactPlayer 
+  url='https://www.youtube.com/watch?v=q3PKNySW6LQ&list=PL9SnRnlzoyX0RE6_wcrTKaWj8cmQb3uO6'
+    width='100%'
+    // height='50%'
+    controls
+    loop
+    volume={.5}
+    />
+      
+</div>
 
-<div className='player-wrapper'>
-        <ReactPlayer
-          className='react-player'
-          url='https://www.youtube.com/watch?v=ugp2hjSycmk'
-          width='100%'
-          height='100%'
-          controls
-          loop
-          volume={1}
-        />
-      </div>
+<h2>Programacion</h2>
 
-<h1>mama</h1>
+
+<div className="container-fluid">
+  <ReactPlayer 
+  url='https://www.youtube.com/watch?v=_w4sPyiNdBY'
+    width='100%'
+    // height='100%'
+    controls
+    loop
+    volume={.5}
+    />
+      
+</div>
+
+
+<h2>Inglés</h2>
+
+<div className="container-fluid">
+  <ReactPlayer 
+  url='https://www.youtube.com/watch?v=GWS3PCBFVgI'
+    width='100%'
+    // height='100%'
+    controls
+    loop
+    volume={.5}
+    />
+      
+</div>
+
+
 </>
 
 
