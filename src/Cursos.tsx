@@ -16,6 +16,7 @@ return (
   <iframe className="ratio" src="https://www.youtube.com/embed/UFaMBm8-7mQ?rel=0" title="YouTube video" allowFullScreen />
 </div> */}
 
+<h2>hola</h2>
 
 <div className='player-wrapper'>
         <ReactPlayer
