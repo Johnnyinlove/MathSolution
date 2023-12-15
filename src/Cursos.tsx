@@ -1,4 +1,3 @@
-import Nav from "./Nav";
 import  "./index.css"
 // import React from 'react'
 import ReactPlayer from 'react-player'

@@ -2,7 +2,7 @@
 import './App.css'
 
 import Nav from "./Nav";
-import Slider from "./Slider";
+// import Slider from "./Slider";
 
 
 export default function Horario( ) {

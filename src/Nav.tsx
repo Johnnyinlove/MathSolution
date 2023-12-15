@@ -7,7 +7,7 @@ export default function Nav () {
   const navigate=useNavigate()
 
    const ReturnHome =()=> {
-   navigate("/MathSolution/");  
+   navigate("/MathSolution/Home");  
    }
 
    const goHorario =()=> {
@@ -36,31 +36,78 @@ export default function Nav () {
       <img src={svg} alt="svg" />
       Home</a>
   </li>
-  <li className="nav-item dropdown active">
-    <a className="nav-link dropdown-toggle color-new" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
-    <ul className="dropdown-menu">
-      <li><a onClick={goCursos}  className="dropdown-item" href="#">Cursos</a></li>
-      <li><a onClick={goHorario} className="dropdown-item" href="#">Horarios</a></li>
-      <li><a onClick={goAutor} className="dropdown-item" href="#">Autor</a></li>
-      <li><hr className="dropdown-divider"/></li>
-      <li><a className="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </li>
-  <li className="nav-item dropdown active">
-    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Webs</a>
-    <ul className="dropdown-menu">
-      <li><a className="dropdown-item" href="https://johnnyinlove.d3i5negfn33i3u.amplifyapp.com/">Primera Web</a></li>
-      <li><hr className="dropdown-divider"/></li>
-      <li><a className="dropdown-item" href="https://johnnyreact.d3if6eo00snogl.amplifyapp.com/"> SSegunda web</a></li>
-    </ul>
-  </li>
-  {/* <li className="nav-item">
-    <a className="nav-link" href="#">Link</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-  </li> */}
+
+  <div className="btn-group">
+  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+  Repasador
+  </button>
+  <ul className="dropdown-menu">
+    <li>
+    
+    <div className="btn-group dropend">
+  <button type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Cursos
+  </button>
+  <ul className="dropdown-menu">
+    <li><a onClick={goCursos} className="dropdown-item" href="#">Matematica</a></li>
+    <li><a className="dropdown-item" href="#">Ingles</a></li>
+    <li><a className="dropdown-item" href="#">Informatica</a></li>
+  </ul>
+</div>
+    
+    <div className="btn-group dropend">
+  <button onClick={goHorario}  type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Horario
+  </button>
+</div>
+</li>
 </ul>
+
+
+</div>
+<div className="btn-group">
+  <button className="btn bg-alert-mio dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+  Confección de Documentos
+  </button>
+  <ul className="dropdown-menu">
+    <li>
+    
+    <div className="btn-group dropend">
+  <button type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Cursos
+  </button>
+  <ul className="dropdown-menu">
+    <li><a className="dropdown-item" href="#">Matematica</a></li>
+    <li><a className="dropdown-item" href="#">Ingles</a></li>
+    <li><a className="dropdown-item" href="#">Informatica</a></li>
+  </ul>
+</div>
+    
+    <div className="btn-group dropend">
+  <button type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Horario
+  </button>
+</div>
+</li>
+</ul>
+
+</div>
+
+<button onClick={goAutor} className="btn bg-alert-mio dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+Autor
+  </button>
+
+
+
+  </ul>
+
+
+
+
+
+
+
+
 
 </nav>
 </>
