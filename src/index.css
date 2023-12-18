@@ -187,12 +187,42 @@ text-align: center; /*para alinear en el centro*/
   
   }
 
+  @keyframes gif-brich{
+20%{
+  border: #535bf2 solid;
+
+}
+
+40%{
+  border: red solid;
+}
+
+60%{
+  border: blue solid;
+}
+
+80% {
+  border: green solid;
+}
+  }
+
+
 .with{
   width: 10%;
   animation: gif-move infinite 1s;
   -webkit-animation: gif-move infinite 1s;
 }
+  
 
+.with:hover{
+  animation: gif-brich infinite 2s;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-animation: gif-brich infinite 2s;
+}
 
   .cursorPointer{
 

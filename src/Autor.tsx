@@ -81,65 +81,65 @@ Básico: English
 
     <h5 className="card-title">Mis redes sociales</h5>
 
-      <div className="ms-2 me-auto">
-      <div className="fw-bold">Facebook</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="https://www.facebook.com/juan.cruzoduardo"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/642/PNG/512/facebook_icon-icons.com_59205.png" alt="img" />
       </a>
 
+      <div className="ms-2 me-auto">
+      <div className="fw-bold">Facebook</div>
+    </div>
     </span>
 
 
-    <div className="ms-2 me-auto">
-    <div className="fw-bold">Telegram</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="https://t.me/Whatwho01"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/923/PNG/512/telegram_icon-icons.com_72055.png" alt="img" />
       </a>
+    <div className="ms-2 me-auto">
+    <div className="fw-bold">Telegram</div>
+    </div>
 
     </span>
 
-    <div className="ms-2 me-auto">
-    <div className="fw-bold">Linkedin</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="https://www.linkedin.com/in/john-manito-bb4b02259"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="img" />
       </a>
 
+    <div className="ms-2 me-auto">
+    <div className="fw-bold">Linkedin</div>
+    </div>
     </span>
 
-    <div className="ms-2 me-auto">
-    <div className="fw-bold">GitHub</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="https://github.com/Johnnyinlove"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/2368/PNG/96/github_logo_icon_143772.png" alt="img" />
       </a>
 
+    <div className="ms-2 me-auto">
+    <div className="fw-bold">GitHub</div>
+    </div>
     </span>
 
-    <div className="ms-2 me-auto">
-    <div className="fw-bold">Notion</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="https://www.notion.so/Getting-Started-on-Mobile-8d98ea3f4d1441c68f8a9d8bc4e9ba6f?pvs=4"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/notion_black_logo_icon_147102.png" alt="img" />
       </a>
 
+    <div className="ms-2 me-auto">
+    <div className="fw-bold">Notion</div>
+    </div>
     </span>
     
-    <div className="ms-2 me-auto">
-    <div className="fw-bold">Gmail</div>
-    </div>
       <span className=" rounded-pill text-center-min">
     <a href="mailto:johnmanito3@gmail.com"  rel='noopener' target="_blank">
     <img className="with" src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" alt="img" />
       </a>
 
+    <div className="ms-2 me-auto">
+    <div className="fw-bold">Gmail</div>
+    </div>
     </span>
   
 

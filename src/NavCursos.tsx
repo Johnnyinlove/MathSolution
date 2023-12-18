@@ -1,6 +1,7 @@
 import {} from 'react'
 import { useNavigate } from "react-router-dom";
 import svg from "./assets/react.svg";
+import SliderMat from './SliderMat';
 
 export default function Nav () {
 
@@ -35,18 +36,18 @@ export default function Nav () {
       Home</a>
   </li>
   <li className="nav-item dropdown active">
-    <a className="nav-link dropdown-toggle color-new" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Materias</a>
+    <a className="nav-link dropdown-toggle color-new" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Materiales</a>
     <ul className="dropdown-menu">
-      <li><a onClick={goCursos}  className="dropdown-item" href="#">Matematicas</a></li>
-      <li><a onClick={goHorario} className="dropdown-item" href="#">Ingles</a></li>
-      <li><a className="dropdown-item" href="#">Programacion</a></li>
-      <li><hr className="dropdown-divider"/></li>
-      <li><a className="dropdown-item" href="#">Separated link</a></li>
+      <li><a onClick={goCursos}  className="dropdown-item" href="#">Videos</a></li>
+      <li><a onClick={goHorario} className="dropdown-item" href="#">Documentos</a></li>
     </ul>
   </li>
 </ul>
 
 </nav>
+
+<SliderMat/>
+
 </>
 
 );
